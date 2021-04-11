@@ -8,9 +8,18 @@ const articleSchema = new Schema({
     },article:{
         type:String,
         required:true
-    },authorname:{
+    },articleImage:{
         type:String,
         required:true
+
+    },
+    authorname:{
+        type:String,
+        required:true
+    },videolink:{
+        type:String,
+        required:true
+
     }
 })
 
